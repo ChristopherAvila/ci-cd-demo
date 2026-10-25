@@ -1,7 +1,5 @@
 name: CID/CD Pipeline
 
-
-
 on:
   push:
     branches: ['main']
@@ -12,9 +10,7 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-
     steps:
-
     - name: Copy repository to runner
       uses: actions/checkout@v4
 
